@@ -19,18 +19,46 @@ Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngin
 Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.133 seconds
+- Completed reload, in  0.269 seconds
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.dll (this message is harmless)
 desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.885530 ms
+UnloadTime: 1.364108 ms
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Mono.Security.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 223c -> priority: 1 
-  Thread -> id: 2524 -> priority: 1 
+  Thread -> id: 27c0 -> priority: 1 
+  Thread -> id: 2db8 -> priority: 1 
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Switching to pan mode
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Switching to pan mode
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)

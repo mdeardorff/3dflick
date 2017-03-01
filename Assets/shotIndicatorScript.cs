@@ -10,12 +10,15 @@ public class shotIndicatorScript : MonoBehaviour {
 	public Rigidbody rb;
 	public float rotationSpeed;
 	public MeshRenderer[] meshRender;
+	private Vector3 offset;
 
 	// Use this for initialization
 	void Start () {
 		meshRender = gameObject.GetComponentsInChildren<MeshRenderer> ();
 		isActive = true;
 		rotationSpeed = 2.0f;
+		offset = transform.position - controller.currentObject.transform.position;
+		transform.position = controller.currentObject.transform.position + offset;
 		
 	}
 	
@@ -36,10 +39,11 @@ public class shotIndicatorScript : MonoBehaviour {
 			if (InputManager.IsPressed ("RotateShotIndicatorLeft")) {
 				transform.RotateAround (controller.currentObject.transform.position, controller.currentObject.transform.up, -rotationSpeed);
 			}
+			offset = controller.currentObject.transform.position - transform.position;
 		} else {
 			meshRender [0].enabled = false;
 			meshRender [1].enabled = false;
-			transform.position = transform.position + rb.velocity * Time.deltaTime;
+			transform.position = controller.currentObject.transform.position - offset;
 
 		}
 		

@@ -25,7 +25,7 @@ public class gameController : MonoBehaviour {
 		indicatorArrow = GameObject.FindGameObjectWithTag ("arrow");
 		shotStrength = 80.0f;
 		allPieces = GameObject.FindGameObjectsWithTag ("pieces");
-		currentIndex = 4;
+		currentIndex = 5;
 		currentObject = allPieces [currentIndex];
 		if (allPieces != null) {
 		}
