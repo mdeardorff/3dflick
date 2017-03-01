@@ -9,26 +9,25 @@ public class gameController : MonoBehaviour {
 	public GameObject[] allPieces;
 	public GameObject currentObject;
 	public GameObject nextObject;
+	public GameObject indicatorArrow;
+	public Rigidbody rb;
 	public int currentIndex;
 	public int nextIndex;
-	public bool atDestination;
-	public cameraFollow followScript;
 	public float transitionDuration;
 	public CameraController camController;
-	public bool shouldTransition;
+	public float shotStrength;
 
 
 
 
 	// Use this for initialization
 	void Start () {
-		
-		atDestination = true;
+		indicatorArrow = GameObject.FindGameObjectWithTag ("arrow");
+		shotStrength = 80.0f;
 		allPieces = GameObject.FindGameObjectsWithTag ("pieces");
+		currentIndex = 4;
+		currentObject = allPieces [currentIndex];
 		if (allPieces != null) {
-			currentIndex = 0;
-			nextIndex = 1;
-			currentObject = allPieces [currentIndex]; 
 		}
 		else {
 			Debug.Log ("no pieces found");
@@ -38,6 +37,11 @@ public class gameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		currentObject = allPieces[currentIndex];
+		if (InputManager.IsJustPressed ("ChargeShot")) {
+			rb.AddForce (indicatorArrow.transform.forward * -shotStrength, ForceMode.Impulse);
+			
+		}
 
 		if(InputManager.IsJustPressed("CameraPanButtons")) {
 			Debug.Log("Switching to pan mode");
