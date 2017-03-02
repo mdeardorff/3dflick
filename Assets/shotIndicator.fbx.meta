@@ -1,15 +1,22 @@
 fileFormatVersion: 2
-guid: 89d188298b4af724d9a4b46a1def78fc
-timeCreated: 1488243388
+guid: 16f742d6ed59d2341a14e11cffdc1c6b
+timeCreated: 1488424532
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: disc
+    100000: pCone1
+    100002: pCylinder1
+    100004: //RootNode
+    400000: pCone1
+    400002: pCylinder1
+    400004: //RootNode
+    2300000: pCone1
+    2300002: pCylinder1
+    3300000: pCone1
+    3300002: pCylinder1
+    4300000: pCone1
+    4300002: pCylinder1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -35,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

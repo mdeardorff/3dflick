@@ -23,9 +23,9 @@ public class gameController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		indicatorArrow = GameObject.FindGameObjectWithTag ("arrow");
-		shotStrength = 80.0f;
+		shotStrength = 400.0f;
 		allPieces = GameObject.FindGameObjectsWithTag ("pieces");
-		currentIndex = 5;
+		currentIndex = 0;
 		currentObject = allPieces [currentIndex];
 		if (allPieces != null) {
 		}
