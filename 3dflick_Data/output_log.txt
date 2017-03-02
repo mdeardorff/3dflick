@@ -2,183 +2,34 @@ Initialize engine version: 5.5.1f1 (88d00a7498cd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon (TM) R9 380 Series (ID=0x6938)
-    Vendor:   ATI
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
     VRAM:     3072 MB
-    Driver:   21.19.407.0
+    Driver:   21.21.13.7653
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.269 seconds
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.dll (this message is harmless)
-desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.019 seconds
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\System.dll (this message is harmless)
+desktop: 3440x1440 60Hz; virtual: 6000x1440 at -2560,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.364108 ms
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Mono.Security.dll (this message is harmless)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 27c0 -> priority: 1 
-  Thread -> id: 2db8 -> priority: 1 
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Switching to pan mode
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+UnloadTime: 0.813295 ms
+Platform assembly: C:\Users\Nate-PC\Desktop\Unity\3dflick\3dflick_Data\Managed\Mono.Security.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 804c -> priority: 1 
 Switching to pan mode
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
