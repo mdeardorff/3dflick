@@ -11,6 +11,7 @@ public class shotIndicatorScript : MonoBehaviour {
 	public float rotationSpeed;
 	public MeshRenderer[] meshRender;
 	private Vector3 offset;
+	public Transform correctOrientation;
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +32,9 @@ public class shotIndicatorScript : MonoBehaviour {
 			isActive = false;
 
 		if (isActive) {
+			if (controller.currentObject.transform.rotation != correctOrientation.transform.rotation) {
+				controller.currentObject.transform.rotation = correctOrientation.transform.rotation;
+			}
 			meshRender[0].enabled = true;
 			meshRender [1].enabled = true;
 			if (InputManager.IsPressed ("RotateShotIndicatorRight")) {
