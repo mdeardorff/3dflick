@@ -5,7 +5,10 @@ using UnityEngine;
 public class pauseScript : MonoBehaviour {
 
 	public Transform canvas;
-	
+
+	void Start () {
+		canvas.gameObject.SetActive (false);
+	}
 	// Update is called once per frame
 	void Update ()
 	{
