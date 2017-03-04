@@ -30,7 +30,7 @@ public class MenuScript : MonoBehaviour {
 
 	public void LoadIntoGame()
 	{
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 	public void SoundToggle()
