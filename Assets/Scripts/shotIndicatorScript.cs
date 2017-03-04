@@ -18,13 +18,15 @@ public class shotIndicatorScript : MonoBehaviour {
 		meshRender = gameObject.GetComponentsInChildren<MeshRenderer> ();
 		isActive = true;
 		rotationSpeed = 2.0f;
-		offset = transform.position - controller.currentObject.transform.position;
+		offset = controller.currentObject.transform.position - transform.position;
 		transform.position = controller.currentObject.transform.position + offset;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (transform.position != controller.currentObject.transform.position + offset)
+			transform.position = controller.currentObject.transform.position - offset;
 		
 		if (rb.velocity == Vector3.zero) {
 			isActive = true;
