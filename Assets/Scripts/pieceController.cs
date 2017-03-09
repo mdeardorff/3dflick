@@ -24,12 +24,12 @@ public class pieceController : MonoBehaviour {
 		float power = 1.0f;
 		while (InputManager.IsPressed ("ChargeShot")) {
 			power += shotChargeRate;
-			if (power > 8.0f)
+			if (power > 600.0f)
 				break;
 			yield return 0;
 		}
 
-		rb.AddForce (shotIndicator.transform.forward * -power, ForceMode.Impulse);
+		rb.AddForce (shotIndicator.transform.forward * -power/50, ForceMode.Impulse);
 		yield return 0;
 	}
 }

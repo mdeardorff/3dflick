@@ -5,7 +5,7 @@ Direct3D:
     Renderer: AMD Radeon (TM) R9 380 Series (ID=0x6938)
     Vendor:   ATI
     VRAM:     3072 MB
-    Driver:   21.19.407.0
+    Driver:   21.19.519.2
 Begin MonoManager ReloadAssembly
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -19,17 +19,25 @@ Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngin
 Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading D:\Unity\testProjects\3dflick\3dflick_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.387 seconds
+- Completed reload, in  0.208 seconds
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\System.dll (this message is harmless)
 desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.181096 ms
-Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Mono.Security.dll (this message is harmless)
+UnloadTime: 1.148353 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 295c -> priority: 1 
-  Thread -> id: 35dc -> priority: 1 
+  Thread -> id: 1108 -> priority: 1 
+  Thread -> id: 2f10 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.019923 ms
+Platform assembly: D:\Unity\testProjects\3dflick\3dflick_Data\Managed\Mono.Security.dll (this message is harmless)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 470.
+Total: 0.276271 ms (FindLiveObjects: 0.026603 ms CreateObjectMapping: 0.018710 ms MarkObjects: 0.222186 ms  DeleteObjects: 0.008185 ms)
+
+3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
