@@ -6,7 +6,7 @@ using com.ootii.Input;
 public class pieceController : MonoBehaviour {
 	private Rigidbody rb;
 	private GameObject shotIndicator;
-	public float shotChargeRate = .001f;
+	public float shotChargeRate = 10f;
 
 	// Use this for initialization
 	void Start () {
@@ -23,13 +23,13 @@ public class pieceController : MonoBehaviour {
 	public IEnumerator shoot() {
 		float power = 1.0f;
 		while (InputManager.IsPressed ("ChargeShot")) {
-			power += shotChargeRate;
-			if (power > 600.0f)
+			power += shotChargeRate * Time.deltaTime;
+			if (power > 30.0f)
 				break;
 			yield return 0;
 		}
 
-		rb.AddForce (shotIndicator.transform.forward * -power/50, ForceMode.Impulse);
+		rb.AddForce (shotIndicator.transform.forward * -power, ForceMode.Impulse);
 		yield return 0;
 	}
 }

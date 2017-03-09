@@ -9,6 +9,7 @@ public class gameController : MonoBehaviour {
 	public GameObject[] allPieces;
 	public GameObject currentObject;
 	public GameObject indicatorArrow;
+	public shotIndicatorScript indicatorScript;
 	public Rigidbody rb;
 	public int currentIndex;
 	public float transitionDuration;
@@ -51,10 +52,12 @@ public class gameController : MonoBehaviour {
 			if (currentIndex - 1 >= 0) {
 				currentObject = allPieces [--currentIndex];
 				currentScript = currentObject.GetComponent<pieceController>();
+				indicatorScript.anchor = currentObject.GetComponent<Rigidbody> ();
 			} else {
 				currentObject = allPieces [allPieces.Length - 1];
 				currentIndex = allPieces.Length - 1;
 				currentScript = currentObject.GetComponent<pieceController>();
+				indicatorScript.anchor = currentObject.GetComponent<Rigidbody> ();
 			}
 		}
 			
@@ -62,10 +65,12 @@ public class gameController : MonoBehaviour {
 			if (currentIndex + 1 < allPieces.Length) {
 				currentObject = allPieces [++currentIndex];
 				currentScript = currentObject.GetComponent<pieceController>();
+				indicatorScript.anchor = currentObject.GetComponent<Rigidbody> ();
 			} else {
 				currentObject = allPieces [0];
 				currentIndex = 0;
 				currentScript = currentObject.GetComponent<pieceController>();
+				indicatorScript.anchor = currentObject.GetComponent<Rigidbody> ();
 			}
 
 		}

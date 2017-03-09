@@ -7,12 +7,12 @@ using UnityEngine;
 public class shotIndicatorScript : MonoBehaviour {
 	public bool isActive;
 	public gameController controller;
-	public Rigidbody rb;
 	public float rotationSpeed;
 	public MeshRenderer[] meshRender;
 	private Vector3 offset;
 	public Transform correctOrientation;
 	public GameObject flatFollow;
+	public Rigidbody anchor;
 
 	// Use this for initialization
 	void Start () {
@@ -21,18 +21,23 @@ public class shotIndicatorScript : MonoBehaviour {
 		rotationSpeed = 2.0f;
 		offset = controller.currentObject.transform.position - transform.position;
 		transform.position = controller.currentObject.transform.position + offset;
+		anchor = controller.currentObject.GetComponent<Rigidbody> ();
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (transform.position != controller.currentObject.transform.position + offset)
-			transform.position = controller.currentObject.transform.position - offset;
-		
-		if (rb.velocity == Vector3.zero) {
+		if (this.anchor != controller.currentObject.GetComponent<Rigidbody> ())
+			this.anchor = controller.currentObject.GetComponent<Rigidbody> ();
+			
+		if (transform.position != anchor.transform.position - offset)
+			transform.position = anchor.transform.position - offset;
+
+		if (this.anchor.velocity == Vector3.zero)
 			isActive = true;
-		} else
+		else
 			isActive = false;
+
 
 		if (isActive) {
 			if (controller.currentObject.transform.rotation != correctOrientation.transform.rotation) {
@@ -41,12 +46,12 @@ public class shotIndicatorScript : MonoBehaviour {
 			meshRender[0].enabled = true;
 			meshRender [1].enabled = true;
 			if (InputManager.IsPressed ("RotateShotIndicatorRight")) {
-				transform.RotateAround (controller.currentObject.transform.position, controller.currentObject.transform.up, rotationSpeed);
+				transform.RotateAround (anchor.transform.position, anchor.transform.up, rotationSpeed);
 			}
 			if (InputManager.IsPressed ("RotateShotIndicatorLeft")) {
-				transform.RotateAround (controller.currentObject.transform.position, controller.currentObject.transform.up, -rotationSpeed);
+				transform.RotateAround (anchor.transform.position, anchor.transform.up, -rotationSpeed);
 			}
-			offset = controller.currentObject.transform.position - transform.position;
+			offset = anchor.transform.position - transform.position;
 		} else {
 			meshRender [0].enabled = false;
 			meshRender [1].enabled = false;
