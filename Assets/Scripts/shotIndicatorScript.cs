@@ -12,6 +12,7 @@ public class shotIndicatorScript : MonoBehaviour {
 	public MeshRenderer[] meshRender;
 	private Vector3 offset;
 	public Transform correctOrientation;
+	public GameObject flatFollow;
 
 	// Use this for initialization
 	void Start () {

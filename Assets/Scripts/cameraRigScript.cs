@@ -6,6 +6,7 @@ using UnityEngine;
 public class cameraRigScript : MonoBehaviour {
 	public CameraController camController;
 	public gameController controller;
+	public GameObject flatAnchor;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,6 @@ public class cameraRigScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		camController.Anchor = controller.currentObject.transform;	
+		
 	}
 }

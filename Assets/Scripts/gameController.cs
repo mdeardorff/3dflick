@@ -16,6 +16,7 @@ public class gameController : MonoBehaviour {
 	public float shotStrength = 400.0f;
 	public GameObject pauseMenuPrefab;
 	private Canvas pauseMenuCanvas;
+	private pieceController currentScript;
 	public int currentTeam;
 
 
@@ -34,35 +35,42 @@ public class gameController : MonoBehaviour {
 		else {
 			Debug.Log ("no pieces found");
 		}
+		currentScript = currentObject.GetComponent<pieceController>();
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		checkPaused ();
-		rb = currentObject.GetComponent<Rigidbody>();
+		if (currentScript != currentObject.GetComponent<pieceController> ()) {
+			currentScript = currentObject.GetComponent<pieceController> ();
+		}
+
 
 		if (InputManager.IsJustPressed ("ChangeLeftCharacter")) {
 			if (currentIndex - 1 >= 0) {
 				currentObject = allPieces [--currentIndex];
+				currentScript = currentObject.GetComponent<pieceController>();
 			} else {
 				currentObject = allPieces [allPieces.Length - 1];
 				currentIndex = allPieces.Length - 1;
+				currentScript = currentObject.GetComponent<pieceController>();
 			}
 		}
 			
 		if (InputManager.IsJustPressed ("ChangeRightCharacter")) {
 			if (currentIndex + 1 < allPieces.Length) {
 				currentObject = allPieces [++currentIndex];
+				currentScript = currentObject.GetComponent<pieceController>();
 			} else {
 				currentObject = allPieces [0];
 				currentIndex = 0;
+				currentScript = currentObject.GetComponent<pieceController>();
 			}
 
 		}
 		if (InputManager.IsJustPressed ("ChargeShot")) {
-			Debug.Log ("press click");
-			rb.AddForce (indicatorArrow.transform.forward * -shotStrength, ForceMode.Impulse);
+			StartCoroutine(currentScript.shoot ());
 			
 		}
 
